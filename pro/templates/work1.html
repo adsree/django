@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/work1.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world,</h1>
+    <h2>You there...?</h2>
+    <a href="{% url 'app1:data' %}">click for app1 data</a><br>
+    <a href="{% url 'app2:home' %}">click for app2</a>
+</body>
+</html>
